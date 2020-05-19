@@ -83,6 +83,7 @@ header .highlight, header .current a{
 	background-size: cover;
 	text-align: center;
 	color: #ffffff;
+	border-bottom: #e8491d 3px solid;
 }
 
 #showcase h1{
@@ -94,6 +95,39 @@ header .highlight, header .current a{
 #showcase p{
 	font-size: 15px;
 }
+
+#showcase1{
+	min-height: 400px;
+	background:url(../img/certi.jpg) no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+	color: #ffffff;
+	border-bottom: #e8491d 3px solid;
+}
+#showcase1 li{
+	margin-top: 60px; 
+	float: left;
+	display: table;
+	padding: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: Times New Roman, Helvetica, sans-serif;
+}
+
+/*.btn2{
+	display: block;
+	width: 122px;
+	height: 122px;
+	background: #f1f1f1;
+	margin: 27px;
+	border-radius: 0%;
+	box-shadow: 0 5px 15px -5px #00000070;
+	color: #3498db;
+	overflow: hidden;
+	position: relative;
+} */
 
 /* Email */
 
