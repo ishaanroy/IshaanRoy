@@ -236,6 +236,7 @@ footer{
 	padding: 15px;
 	color: #ffffff;
 	background: #1E90FF;
+	border-bottom: #e8491d 3px solid;
 }
 
 #RecArt li{
@@ -254,11 +255,14 @@ footer{
 	font-size: 25px;
 }
 
+/* Movies */
+
 #RecMov{
 	min-height: 400px;
 	padding: 15px;
 	color: #ffffff;
 	background: #008080;
+	border-bottom: #e8491d 3px solid;
 }
 
 #RecMov a{
@@ -267,10 +271,25 @@ footer{
 	font-size: 15px;
 }
 
+#RecMov h2{
+	text-align: left;
+	display: block;
+	font-size: 20px;
+}
+
+#RecMov h3{
+	text-align: right;
+	display: block;
+	font-size: 20px;
+}
+
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
+
 
