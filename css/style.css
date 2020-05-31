@@ -99,7 +99,7 @@ header .highlight, header .current a{
 
 #showcase1{
 	min-height: 400px;
-	background:url(../img/certi.jpg) no-repeat;
+	background:url(../img/certi.jpg) no-repeat max-width: 100%;
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -230,8 +230,47 @@ footer{
 	color: #e8491d;
 }
 
+/* Articles */
+#RecArt{
+	min-height: 150px;
+	padding: 15px;
+	color: #ffffff;
+	background: #1E90FF;
+}
 
+#RecArt li{
+	margin-top: 60px; 
+	float: left;
+	display: table;
+	padding: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: Times New Roman, Helvetica, sans-serif;
+}
 
+#RecArt a{
+	text-align: center;
+	display: block;
+	font-size: 25px;
+}
 
+#RecMov{
+	min-height: 400px;
+	padding: 15px;
+	color: #ffffff;
+	background: #008080;
+}
 
+#RecMov a{
+	text-align: center;
+	display: block;
+	font-size: 15px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
